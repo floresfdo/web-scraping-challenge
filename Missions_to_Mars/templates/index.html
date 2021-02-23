@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Scraping Homework</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1>Latest Mars Data</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Pull the latest data!</a></p>
+    </div>
+
+    <div class="row" id="mars_facts">
+      <div class="col-md-12">
+        <h4 class="heading">{{data.n_title}}</h4>
+        <small>{{data.n_text}}</small>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
+
